@@ -1,0 +1,20 @@
+desk
+.title NMOS Transistor
+.subckt Mem1 S D phi
+Gm 0 o D S 0.0002
+RR2 o 0 1000000000000
+Ssw o Cmem phi 0 my_switch
+CC 0 Cmem 0.1pF
+M1 D Cmem S 0 my_nmos
+.model my_switch SW (Roff=100000000000000000000 Ron=0.001 Vt=0.5)
+.model my_nmos NMOS (Kp=0.00013000000000000002 Vto=0 level=3)
+.ends Mem1
+VS S 0 0V
+VD D 0 DC 0V AC 1V SIN(0V 1V 1kHz 0s 0Hz)
+Vphi phi 0 1.2V
+XMem1 S D phi mem1
+.options TEMP = 25C
+.options TNOM = 25C
+.ic V(XMem1.Cmem)=0
+.tran 0.0001ms 10ms 0s uic
+.end
