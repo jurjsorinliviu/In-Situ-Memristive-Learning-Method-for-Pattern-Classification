@@ -1,9 +1,9 @@
 # In-Situ-Memristive-Learning-Method-for-Pattern-Classification
 SPICE-based In-Situ Memristive Learning Method for Pattern Classification using Spiking Neural Networks
 
-After proposing the SNNtrainer3D app (https://github.com/jurjsorinliviu/SNNtrainer3D), and the Efficient Implementation of Spiking Neural Networks for Inference using Ex-Situ Training (https://github.com/jurjsorinliviu/SNNs_for_Inference_using_Ex-Situ_Training), here we propose a memristive learning method we call "In-Situ Memristive Learning Method for Pattern Classification".
+After proposing the SNNtrainer3D app (https://github.com/jurjsorinliviu/SNNtrainer3D), and the Efficient Implementation of Spiking Neural Networks for Inference using Ex-Situ Training (https://github.com/jurjsorinliviu/SNNs_for_Inference_using_Ex-Situ_Training), here, a memristive learning method is proposed called "In-Situ Memristive Learning Method for Pattern Classification".
 
-To summarize, in this paper, we trained SNNs completely in-situ using memristor emulators in SPICE that can be parametrized to emulate any particular memristor. Also, we developed the first PySpice implementation of memristors. We trained a few datasets with this method with great results, including MNIST. Regarding possible future works, some ideas could be built on top of this: backpropagation of errors, generalizing the training method for many layers, a more technical version of STDP learning, and other datasets.
+To summarize, in this paper, I trained SNNs completely in-situ using memristor emulators in SPICE that can be parametrized to emulate any particular memristor. Also, I developed the first PySpice implementation of memristors. I trained a few datasets with this method with great results, including MNIST. Regarding possible future works, some ideas could be built on top of this: backpropagation of errors, generalizing the training method for many layers, a more technical version of STDP learning, and other datasets.
 
 Details about implementation files:
 - memristor.py defines the PySpice memristor emulator used by the other scripts, and running it by itself generates the IV plot for the simulated memristor.
