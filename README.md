@@ -17,5 +17,3 @@ Details about implementation files:
 If you are interested in citing this work, please use the following citation:
 
 S. L. Jurj, "SPICE-based In-Situ Memristive Learning Method for Pattern Classification using Spiking Neural Networks,".
-
-I will provide the complete citation details once the paper is accepted and published (currently under review). I expect this to happen in Oct.-Nov. 2024.
