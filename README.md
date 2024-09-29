@@ -1,5 +1,4 @@
 # In-Situ-Memristive-Learning-Method-for-Pattern-Classification
-SPICE-based In-Situ Memristive Learning Method for Pattern Classification using Spiking Neural Networks
 
 After proposing the SNNtrainer3D app (https://github.com/jurjsorinliviu/SNNtrainer3D and https://www.mdpi.com/2076-3417/14/13/5752), and the Efficient Implementation of Spiking Neural Networks for Inference using Ex-Situ Training (https://github.com/jurjsorinliviu/SNNs_for_Inference_using_Ex-Situ_Training and https://ieeexplore.ieee.org/document/10681427), here, a memristive learning method is proposed called "In-Situ Memristive Learning Method for Pattern Classification".
 
