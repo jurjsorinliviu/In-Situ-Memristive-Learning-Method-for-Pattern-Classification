@@ -13,6 +13,6 @@ Details about implementation files:
 - The remaining scripts are dependencies for these main scripts.
 
 ## Citation
-If you are interested in citing this work, please use the following citation:
+If you are interested in citing this work, please use the following citation (currently, the paper is under review. I will update the citation once the paper is accepted and published):
 
-S. L. Jurj, "SPICE-based In-Situ Memristive Learning Method for Pattern Classification using Spiking Neural Networks,".
+S. L. Jurj, "PySpice-Simulated In-Situ Learning with Memristor Emulation for Single-Layer Spiking Neural Networks,".
