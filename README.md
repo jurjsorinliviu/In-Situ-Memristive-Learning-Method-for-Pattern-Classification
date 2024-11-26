@@ -2,6 +2,9 @@
 
 After proposing the SNNtrainer3D app (https://github.com/jurjsorinliviu/SNNtrainer3D and https://www.mdpi.com/2076-3417/14/13/5752), and the Efficient Implementation of Spiking Neural Networks for Inference using Ex-Situ Training (https://github.com/jurjsorinliviu/SNNs_for_Inference_using_Ex-Situ_Training and https://ieeexplore.ieee.org/document/10681427), here, a memristive learning method is proposed called "In-Situ Memristive Learning Method for Pattern Classification".
 
+NEW: The paper behind this implementation called "PySpice-Simulated In Situ Learning with Memristor Emulation for Single-Layer Spiking Neural Networks
+" was published here: https://www.mdpi.com/2079-9292/13/23/4665
+
 To summarize, in this work, I trained SNNs completely in-situ using memristor emulators in SPICE that can be parametrized to emulate any particular memristor. Also, I developed the first PySpice implementation of memristors. I trained a few datasets with this method with great results, including MNIST. Regarding possible future works, some ideas could be built on top of this: backpropagation of errors, generalizing the training method for many layers, a more technical version of STDP learning, and other datasets.
 
 Details about implementation files:
@@ -15,4 +18,4 @@ Details about implementation files:
 ## Citation
 If you are interested in citing this work, please use the following citation (currently, the paper is under review. I will update the citation once the paper is accepted and published):
 
-S. L. Jurj, "PySpice-Simulated In-Situ Learning with Memristor Emulation for Single-Layer Spiking Neural Networks,".
+Jurj, S.L. PySpice-Simulated In Situ Learning with Memristor Emulation for Single-Layer Spiking Neural Networks. Electronics 2024, 13, 4665. https://doi.org/10.3390/electronics13234665.
